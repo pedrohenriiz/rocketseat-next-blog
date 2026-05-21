@@ -2,7 +2,7 @@
 
 import { AlertTriangle } from 'lucide-react';
 
-export default function ErrorBoundary({ error, reset }) {
+export default function ErrorBoundary() {
   return (
     <div className='min-h-100 flex items-center justify-center p-4'>
       <div className='max-w-md w-full text-center'>
